@@ -2,9 +2,8 @@
 "spider": "./xbpq5.jar", 
 "lives": [ { "name": "tvlive", "type": 0, "url": "./live.txt", "playerType": 1 } ], 
 "sites": [
-  {"key": "畅梦","name": "💘神仙影视┃急速接口","type":3,"api":"./ysjs/drpy2.min.js","ext":"./ysjs/changmeng.js"},
-  { "key": "365", "name": "💘神仙影视┃高清急速", "type": 3, "api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://guan.yy365.vip/api.php/app/"},
-  {"key": "js_豆瓣热播","name": "官网www.liuyunw.com","type": 3,"api": "./hccx/Api.js","searchable": 0,"quickSearch": 0,"filterable": 0,"ext": "./j/Doubanrebo.js"},
+  {"key": "畅梦","name": "💘神仙影视 | 低配版专用 官网www.liuyunw.com","type":3,"api":"./ysjs/drpy2.min.js","ext":"./ysjs/changmeng.js"},
+  { "key": "365", "name": "💘神仙影视 | 高清急速", "type": 3, "api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://guan.yy365.vip/api.php/app/","playerType":"2"},
   {"key": "csp_来米","name": "影视 | 来米影视","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/laimi.json"},
   {"key": "csp_策驰","name": "影视 | 策驰影院","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/cechi.json"},
   {"key": "csp_Czsapp", "name": "影视 | 厂长影视", "type":3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./json/changzhang.json"},
@@ -32,7 +31,6 @@
   {"key":"csp_search_七夜","name":"🔍七夜 | 搜索","type": 3,"api": "csp_Dovx","searchable": 1,"quickSearch": 1,"filterable": 0,"ext":"http://127.0.0.1:9978/file/fatcat/token.txt","jar":"./cc.jar"},
   {"key":"csp_search_PanSearch","name":"🔍盘搜 | 搜索","type": 3,"api": "csp_PanSearch","searchable": 1,"quickSearch": 1,"filterable": 0,"ext":"http://127.0.0.1:9978/file/fatcat/token.txt","jar":"./cc.jar"},
   {"key": "csp_search_Yisou","name": "🔍易搜 | 搜索","type": 3,"api": "csp_YiSo","playerType": 1,"searchable": 1,"quickSearch": 1,"filterable": 0,"ext":"http://127.0.0.1:9978/file/fatcat/token.txt","jar":"./cc.jar"},
-  {"key": "csp_Mp4Mov","name": "Mp4电影 | 磁力","type": 3,"api": "csp_Mp4Mov","searchable": 1,"quickSearch": 1,"filterable": 1,"jar": "./cili.jar"},
   {"key":"drpy_js_360影视","name":"官源 | 360","type":3,"api":"./js/drpy2.min.js","ext":"./ysjs/360影视.js"},
   {"key":"drpy_js_奇珍异兽","name":"官源 | 爱奇艺","type":3,"api":"./js/drpy2.min.js","ext":"./ysjs/奇珍异兽.js"},
   {"key":"drpy_js_优酷","name":"官源 | 优酷","type":3,"api":"./js/drpy2.min.js","ext":"./ysjs/优酷.js"},
@@ -51,9 +49,10 @@
   {"key":"高中","name":"教育 | 高中","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./json/高中课堂.json","jar":"./11.jar"}
  ], 
 "parses": [ 
-{ "name":"m3u8", "type":0, "url":"https://jx.m3u8.pw/?url=" },
-{ "name": "8090", "type": 0, "url": "https://www.8090g.cn/jiexi/?url=" }, 
-{ "name": "xmflv", "type": 0, "url": "https://jx.xmflv.com/?url=" }
+{ "name":"神仙解析1", "type":0, "url":"https://jx.m3u8.pw/?url=" },
+{"name": "神仙解析2","type": 0,"url": "https://jx.777jiexi.com/player/?url="},
+{ "name": "神仙解析3", "type": 0, "url": "https://www.8090g.cn/jiexi/?url=" }, 
+{ "name": "神仙解析4", "type": 0, "url": "https://jx.xmflv.com/?url=" }
 ], 
 "flags":["youku","qq","iqiyi","qiyi","letv","sohu","tudou","pptv","mgtv","wasu","bilibili","csm3u8","QQ","PPTV","ltnb","rx","CL4K","xfyun","wuduzy","renrenmi","xmm","xigua","m1905","funshion","优酷","芒果","腾讯","爱奇艺","奇艺","哔哩哔哩","哔哩"], 
 "ijk": [ { "group": "软解码", "options": [ { "category": 4, "name": "opensles", "value": "0" }, 
