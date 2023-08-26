@@ -2,7 +2,7 @@
 "spider": "./xbpq5.jar", 
 "lives": [ { "name": "tvlive", "type": 0, "url": "https://gitclone.com/gogs/sxys/sxys/raw/master/live.txt", "playerType": 1 } ], 
 "sites": [
-  {"key": "csp_77","name": "💘神仙影视┃急速接口","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"changeable":1},
+  {"key":"csp_米爱","name":"影视 | 米爱影视","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":"./json/米爱影视.json"},
   {"key":"酷酷","name":"💘神仙影视┃急速高清","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://ys.realdou.cn:2683/api.php/app/"},
   {"key":"drpy_js_豆瓣", "name":"官网www.liuyunw.com", "type":3, "api":"https://xhdwc.tk/lib/drpy2.min.js", "ext":"https://xhdwc.tk/js/drpy.js", "searchable": 0, "quickSearch": 0, "filterable": 0 }, 
 {"key": "csp_woggcli","name": "玩偶极速版","type": 4,"api": "http://home.jundie.top:9520/spider/csp_Wogg?sort=原画&token=6b0ac3dd85bc4e6e9fb20a72b2cc9e1a","searchable": 1,"quickSearch": 1,"filterable": 1},
