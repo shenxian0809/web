@@ -2,7 +2,7 @@
 "spider": "./xbpq5.jar", 
 "lives": [ { "name": "tvlive", "type": 0, "url": "./live.txt", "playerType": 1 } ], 
 "sites": [
-  { "key": "365", "name": "💘神仙影视 | 高清急速 官网www.liuyunw.com", "type": 3, "api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://guan.yy365.vip/api.php/app/","playerType":"2"},
+  { "key": "365", "name": "💘神仙影视 | 高清急速 官网 www.sxtv.top", "type": 3, "api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://guan.yy365.vip/api.php/app/","playerType":"2"},
   {"key": "csp_来米","name": "影视 | 来米影视","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/laimi.json"},
   {"key": "csp_策驰","name": "影视 | 策驰影院","type": 3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext": "./json/cechi.json"},
   {"key": "csp_Czsapp", "name": "影视 | 厂长影视", "type":3,"api": "csp_XBPQ","searchable": 1,"quickSearch": 1,"filterable": 1,"ext":"./json/changzhang.json"},
