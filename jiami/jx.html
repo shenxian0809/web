@@ -58,7 +58,7 @@
             var xhr = new XMLHttpRequest();
             var url = document.getElementById('url').value;
             var resultBox = document.getElementById('result');
-            xhr.open("GET", "https://api.shangui.cc/api/tvbox/jm?key=CBkzLrn7yFaSTo8vBmhLhfFe4u&url=" + encodeURIComponent(url), true);
+            xhr.open("GET", "crawler.php?url=" + encodeURIComponent(url), true);
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     resultBox.value = xhr.responseText;
@@ -76,10 +76,10 @@
                 url = url.split(';md5;')[0];
             }
             fetch(url, {headers: {'User-Agent': 'okhttp'}})
-            .then(function(response) {
+            。then(function(response) {
                 return response.blob();
             })
-            .then(function(blob) {
+            。then(function(blob) {
                 var downloadUrl = URL.createObjectURL(blob);
                 var a = document.createElement('a');
                 a.href = downloadUrl;
