@@ -51,9 +51,7 @@
             <a href="https://pd.qq.com/s/fcunxxnf2"  target="_blank"class="btn btn-success">神仙影视频道</a>
         </div>
     </div>
-   <!-- 引入Bootstrap JS库 -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0/js/bootstrap.min.js"></script>
-    <script>
+  <script>
         function crawl() {
             var xhr = new XMLHttpRequest();
             var url = document.getElementById('url').value;
@@ -76,10 +74,10 @@
                 url = url.split(';md5;')[0];
             }
             fetch(url, {headers: {'User-Agent': 'okhttp'}})
-            。then(function(response) {
+            .then(function(response) {
                 return response.blob();
             })
-            。then(function(blob) {
+            .then(function(blob) {
                 var downloadUrl = URL.createObjectURL(blob);
                 var a = document.createElement('a');
                 a.href = downloadUrl;
@@ -102,4 +100,3 @@
 
     </script>
 </body>
-</html>
