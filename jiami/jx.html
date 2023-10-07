@@ -1,11 +1,9 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TVBox接口一键解密</title>
+    <title>加密接口解析提取</title>
     <!-- 引入Bootstrap样式库 -->
     <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0/css/bootstrap.min.css">
     <style>
@@ -53,14 +51,14 @@
             <a href="https://pd.qq.com/s/fcunxxnf2"  target="_blank"class="btn btn-success">神仙影视频道</a>
         </div>
     </div>
-    <!-- 引入Bootstrap JS库 -->
+   <!-- 引入Bootstrap JS库 -->
     <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.0.0/js/bootstrap.min.js"></script>
     <script>
         function crawl() {
             var xhr = new XMLHttpRequest();
             var url = document.getElementById('url').value;
             var resultBox = document.getElementById('result');
-            xhr.open("GET", "crawler.php?url=" + encodeURIComponent(url), true);
+            xhr.open("GET", "https://api.shangui.cc/api/tvbox/jm?key=CBkzLrn7yFaSTo8vBmhLhfFe4u&url=" + encodeURIComponent(url), true);
             xhr.onreadystatechange = function() {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     resultBox.value = xhr.responseText;
